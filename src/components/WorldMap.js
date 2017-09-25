@@ -61,7 +61,7 @@ export default function renderWorldMap(handleClick){
               d3.selectAll(".subunit-label")
                 .style("display", "none")
           })
-          .on("click", function(){ handleClick() });
+          .on("click", function(event){ handleClick(event) });
 
 
     });
